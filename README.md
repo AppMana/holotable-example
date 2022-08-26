@@ -1,6 +1,6 @@
-# AppMana Unity Starter Project
+# AppMana Holotable Example Project
 
-Use this project as a starting point for developing interactives with AppMana.
+Use this project as a fully featured example of AppMana features in Unity.
 
 ### Getting Started
 
