@@ -494,6 +494,8 @@ PlayerSettings:
   m_BuildTargetGraphicsJobMode:
   - m_BuildTarget: WindowsStandaloneSupport
     m_GraphicsJobMode: 0
+  - m_BuildTarget: MacStandaloneSupport
+    m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: LinuxStandaloneSupport
     m_APIs: 15000000

@@ -8174,6 +8174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357461221024, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
+      propertyPath: m_VerticalAxis.m_MaxSpeed
+      value: 0.1875
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868925357461221024, guid: 1ffd98b0af611410e8d2faf6fae0018b,
+        type: 3}
       propertyPath: m_VerticalAxis.m_MaxValue
       value: 45
       objectReference: {fileID: 0}
@@ -8181,6 +8186,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VerticalAxis.m_MinValue
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3868925357461221024, guid: 1ffd98b0af611410e8d2faf6fae0018b,
+        type: 3}
+      propertyPath: m_HorizontalAxis.m_MaxSpeed
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357461221025, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
@@ -8265,7 +8275,7 @@ PrefabInstance:
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_Lens.FieldOfView
-      value: 59.194183
+      value: 124.48292
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
