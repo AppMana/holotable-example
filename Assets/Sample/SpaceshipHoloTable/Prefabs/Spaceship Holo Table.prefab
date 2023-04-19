@@ -967,7 +967,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 0.4287095, y: 0.24489, z: 2.5120206}
+      - m_Value: {x: 0.4287095, y: 0.24489008, z: 2.5120206}
         m_Name: AABoxControl_center
         m_Overridden: 1
       - m_Value: {x: 4, y: 1, z: 4}
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_VisualEffect: {fileID: 6848805084309048490}
 --- !u!95 &6848805084309048502
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1082,7 +1082,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &6848805084309048501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2421,7 +2422,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.90525603, g: 1, b: 0.8254717, a: 1}
-  m_Intensity: 6.699179
+  m_Intensity: 6.6991787
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4450,7 +4451,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.90525603, g: 1, b: 0.8254717, a: 1}
-  m_Intensity: 4.244132
+  m_Intensity: 4.2441316
   m_Range: 5.9
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5925,7 +5926,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6848805085705252244
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5942,7 +5943,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6848805085715530749
 GameObject:
   m_ObjectHideFlags: 0
@@ -6722,7 +6724,6 @@ GameObject:
   m_Component:
   - component: {fileID: 795912071587438034}
   - component: {fileID: 1243882726486719981}
-  - component: {fileID: 7942976786190167357}
   m_Layer: 0
   m_Name: User Position
   m_TagString: Untagged
@@ -6759,56 +6760,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 30, y: 0.17, z: 30}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7942976786190167357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8669819828576630330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f95d31dd8a9944b08713e5f5181841c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Target:
-    m_Transform: {fileID: 795912071587438034}
-    m_Rigidbody: {fileID: 0}
-    m_UseKinematic: 0
-    m_Force: 600
-    m_Damping: 6
-  m_RaycastOnObject:
-    m_Camera: {fileID: 0}
-    m_ConstrainToLocalPlane: 0
-    m_ConstrainToWorldPlane: 0
-    m_ConstrainToCameraPlane: 0
-    m_PlaneVector: {x: 0, y: 0, z: 0}
-    m_PlanePosition: {x: 0, y: 0, z: 0}
-    m_LocalTransform: {fileID: 0}
-    m_ConstrainOnColliderSurfaces: 0
-    m_Colliders: []
-    m_ConstrainToCollidersByLayerMask: 1
-    m_LayerMask:
-      serializedVersion: 2
-      m_Bits: 1
-    m_MaxDistanceForAllRays: 1000
-    m_MaxRaycastHits: 20
-  m_RaycastConstraint:
-    m_Camera: {fileID: 0}
-    m_ConstrainToLocalPlane: 1
-    m_ConstrainToWorldPlane: 0
-    m_ConstrainToCameraPlane: 0
-    m_PlaneVector: {x: 0, y: 1, z: 0}
-    m_PlanePosition: {x: 0, y: 0, z: 0}
-    m_LocalTransform: {fileID: 795912071587438034}
-    m_ConstrainOnColliderSurfaces: 0
-    m_Colliders: []
-    m_ConstrainToCollidersByLayerMask: 0
-    m_LayerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    m_MaxDistanceForAllRays: 0
-    m_MaxRaycastHits: 0
 --- !u!1001 &1907513727762429338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8180,7 +8131,7 @@ PrefabInstance:
     - target: {fileID: 3868925357461221024, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_VerticalAxis.m_MaxValue
-      value: 45
+      value: 40.25
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357461221024, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
@@ -8210,12 +8161,12 @@ PrefabInstance:
     - target: {fileID: 3868925357942536896, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6458228
+      value: 1.6458229
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536896, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.36848593
+      value: -0.36848605
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536896, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
@@ -8270,22 +8221,22 @@ PrefabInstance:
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_Lens.GateFit
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_Lens.FieldOfView
-      value: 124.48292
+      value: 74.5431
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 21
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3868925357942536958, guid: 1ffd98b0af611410e8d2faf6fae0018b,
         type: 3}
       propertyPath: m_Lens.m_SensorSize.y
-      value: 15.2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ffd98b0af611410e8d2faf6fae0018b, type: 3}
@@ -9259,7 +9210,7 @@ PrefabInstance:
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
       propertyPath: m_Intensity
-      value: 409.84103
+      value: 409.84106
       objectReference: {fileID: 0}
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
@@ -9461,7 +9412,7 @@ PrefabInstance:
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_Intensity
-      value: 914.6836
+      value: 914.68353
       objectReference: {fileID: 0}
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -10697,7 +10648,7 @@ PrefabInstance:
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_Intensity
-      value: 914.6836
+      value: 914.68353
       objectReference: {fileID: 0}
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -10930,7 +10881,7 @@ PrefabInstance:
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_Intensity
-      value: 914.6836
+      value: 914.68353
       objectReference: {fileID: 0}
     - target: {fileID: 3778892958664534348, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -11102,7 +11053,7 @@ PrefabInstance:
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
       propertyPath: m_Intensity
-      value: 409.84103
+      value: 409.84106
       objectReference: {fileID: 0}
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
@@ -11284,7 +11235,7 @@ PrefabInstance:
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
       propertyPath: m_Intensity
-      value: 409.84103
+      value: 409.84106
       objectReference: {fileID: 0}
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
@@ -11701,7 +11652,7 @@ PrefabInstance:
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}
       propertyPath: m_Intensity
-      value: 409.84103
+      value: 409.84106
       objectReference: {fileID: 0}
     - target: {fileID: 5633579065951110352, guid: 95494b6aba7fffd4aa47f7d33edddccf,
         type: 3}

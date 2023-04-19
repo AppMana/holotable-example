@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.027396664, g: 0.027396664, b: 0.027396664, a: 1}
+  m_IndirectSpecularColor: {r: 0.027397007, g: 0.027397007, b: 0.027397007, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -641,16 +641,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6848805084309048490, guid: ea787f68b24ab4ec297d339e3dd71c90,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
-      value: 0.24489008
-      objectReference: {fileID: 0}
-    - target: {fileID: 6848805084309048490, guid: ea787f68b24ab4ec297d339e3dd71c90,
-        type: 3}
-      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
-      value: 2.5120206
-      objectReference: {fileID: 0}
     - target: {fileID: 6848805085066932997, guid: ea787f68b24ab4ec297d339e3dd71c90,
         type: 3}
       propertyPath: m_RootOrder
@@ -711,20 +701,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Space Holo Table
       objectReference: {fileID: 0}
-    - target: {fileID: 7415156324740433428, guid: ea787f68b24ab4ec297d339e3dd71c90,
+    - target: {fileID: 7415156324740433450, guid: ea787f68b24ab4ec297d339e3dd71c90,
         type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6458228
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 24.89
       objectReference: {fileID: 0}
-    - target: {fileID: 7415156324740433428, guid: ea787f68b24ab4ec297d339e3dd71c90,
+    - target: {fileID: 7415156324740433450, guid: ea787f68b24ab4ec297d339e3dd71c90,
         type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.36848605
-      objectReference: {fileID: 0}
-    - target: {fileID: 7415156324740433428, guid: ea787f68b24ab4ec297d339e3dd71c90,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.20876522
+      propertyPath: m_Lens.m_SensorSize.y
+      value: 18.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea787f68b24ab4ec297d339e3dd71c90, type: 3}
@@ -861,11 +846,11 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 2
-  m_GateFitMode: 3
+  m_GateFitMode: 2
   m_FOVAxisMode: 0
-  m_SensorSize: {x: 36, y: 24}
+  m_SensorSize: {x: 24.89, y: 18.66}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 6.31579
+  m_FocalLength: 12.26
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -874,7 +859,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 124.48292
+  field of view: 74.5431
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -900,7 +885,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   m_LocalRotation: {x: 0.20876521, y: 0, z: 0, w: 0.97796583}
-  m_LocalPosition: {x: 0.0039995015, y: 1.6458228, z: -0.3684861}
+  m_LocalPosition: {x: 0.0039995015, y: 1.6458229, z: -0.3684861}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1047,9 +1032,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Camera: {fileID: 1823688466}
   m_AudioListener: {fileID: 1823688465}
+  m_Actions: {fileID: 0}
   m_CanvasScalers:
   - {fileID: 1339021895}
-  m_BaseScale: 1
   m_OnPlayerConnected:
     m_PersistentCalls:
       m_Calls:
@@ -1070,7 +1055,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_InputsOnlyAffectThisHierarchyOrAny: {fileID: 0}
-  m_EnableStreamingInEditor: 0
+  m_StreamInEditMode: 0
+  m_BaseScale: 1
 --- !u!114 &1823688470
 MonoBehaviour:
   m_ObjectHideFlags: 0
